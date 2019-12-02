@@ -33,7 +33,7 @@ function getAllowanceAdjustment() {
     if (document.getElementById("hasmedical").checked ) allowanceadjustment += 1000
     if (document.getElementById("hascar").checked ) allowanceadjustment += 3000
     if (document.getElementById("hastaxdebt").checked ) allowanceadjustment += 1000
-    if (document.getElementById("notsure").checked ) allowanceadjustment += 0
+    if (document.getElementById("notsure") && document.getElementById("notsure").checked ) allowanceadjustment += 0
     return allowanceadjustment
 }
 

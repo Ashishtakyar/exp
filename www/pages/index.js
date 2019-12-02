@@ -26,6 +26,13 @@ const styles = theme => ({
     }
     
   },
+  sectionFormContent: {
+	marginRight: '12%',
+	[theme.breakpoints.down('xs')]: {
+      marginRight: '0%',
+     
+    },
+  },
   headlineCopyBlock: {
     position: 'absolute',
     bottom: 50,
@@ -178,7 +185,8 @@ const Index = ({ isAuthenticated, theme, classes }) => (
                <div className={classes.circleIconBorder} style={{backgroundImage: 'url(/static/images/icons/lightning.png)', backgroundSize: '45px'}} />
                 <Typography variant="h5">Faster Refund</Typography>
                 <Typography variatn="body1">
-				It can take up to  <strong>12 weeks</strong> to get your refund back from HMRC depending on their busy lodgement periods. If you qualify, we refund <strong>50%</strong> of your estimated refund within <strong>48 hours</strong> hours , and the remaining amount once finalised with the HMRC (normally <strong>4 hours</strong>  weeks).
+				It can take up to  <strong>12 weeks</strong> weeks to get your refund back from HMRC depending on their busy lodgement periods. If you qualify, we refund <strong>50%</strong> of your estimated refund within <strong>48 </strong> hours, and the remaining amount once finalised with the HMRC (normally <strong>4</strong> weeks)
+				
                
                 </Typography>
               </div>
@@ -251,7 +259,7 @@ const Index = ({ isAuthenticated, theme, classes }) => (
         <div className={classes.sectionContent}>
           <Typography variant="h3" align="center">How much will I get back?</Typography>
           <Grid container spacing={8} justify="center">
-            <Grid item sm={8} md={5}  style={{display:'flex', marginRight:'12%'}}>
+            <Grid item sm={8} md={5} className={classes.sectionFormContent}  style={{display:'flex'}}>
               <Typography variant="body1" style={{padding: '20px 14px'}}>
                 Use our refund calculator to see if you qualify. If you have left or are planning to leave the UK mid-way throughout the tax year, you are most likely due a tax refund. If it was a previous tax year, we can make a claim for the last 5 years. 
                 <br/><br/> If you work in Scotland, it’s a bit different. Get in touch for an estimate of your refund to <a href="mailto:info@expattaxback.com">info@expattaxback.com</a>

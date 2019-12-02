@@ -10,8 +10,8 @@
     { "src": "/(.*)", "dest": "/www/$1" }
   ],
   "env": {
-    "AIRTABLE_API_KEY": "@airtable_api_key",
-    "SENDGRID_API_KEY": "@sendgrid_api_key"
+    "AIRTABLE_API_KEY": "ashishs",
+    "SENDGRID_API_KEY": "ashishs"
   },
   "regions": ["lhr", "bru"]
 }

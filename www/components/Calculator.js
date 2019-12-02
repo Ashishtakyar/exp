@@ -66,8 +66,7 @@ class Calculator extends React.Component {
       refund:  2800,
       hasmedical: false,
       hascar: false,
-      hastaxdebt: false,
-      notsure: false
+      hastaxdebt: false
     }
   }
   
@@ -264,20 +263,7 @@ class Calculator extends React.Component {
             />
           }
         />
-		<FormControlLabel
-          className={classes.benefitLabel}  
-          label="I'm not sure"
-          // labelPlacement="start"  
-          control={
-            <Checkbox
-              id={'notsure'}
-              // edge="start"
-              checked={this.state.notsure}
-              onChange={this.toggleChange.bind(this)}
-              value="disclaimerChecked"
-            />
-          }
-        />
+		
         <TextField style={{fontWeight:'bold', fontSize:'32px'}}
           id="refund"
           label="Estimated Refund"
