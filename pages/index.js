@@ -178,7 +178,7 @@ const Index = ({ isAuthenticated, theme, classes }) => (
                <div className={classes.circleIconBorder} style={{backgroundImage: 'url(/static/images/icons/lightning.png)', backgroundSize: '45px'}} />
                 <Typography variant="h5">Faster Refund</Typography>
                 <Typography variatn="body1">
-				It can take up to  <strong>12 week</strong> to get your refund back from HMRC depending on their busy lodgement periods. If you qualify, we refund <strong>50%</strong> of your estimated refund within <strong>48 hours</strong> hours , and the remaining amount once finalised with the HMRC (normally <strong>4 hours</strong>  weeks).
+				It can take up to  <strong>12 weeks</strong> to get your refund back from HMRC depending on their busy lodgement periods. If you qualify, we refund <strong>50%</strong> of your estimated refund within <strong>48 hours</strong> hours , and the remaining amount once finalised with the HMRC (normally <strong>4 hours</strong>  weeks).
                
                 </Typography>
               </div>
