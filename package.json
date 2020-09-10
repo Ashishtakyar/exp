@@ -33,6 +33,6 @@
     "universal-cookie": "^3.1.0"
   },
   "devDependencies": {
-    "http-proxy": "^1.17.0"
+    "http-proxy": "^1.18.1"
   }
 }
